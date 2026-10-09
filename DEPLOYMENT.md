@@ -35,7 +35,7 @@ In hPanel, select **Websites → Add Website → Deploy Web App**. Use GitHub or
 | --- | --- |
 | Framework | Express.js (or Other if auto-detection requires manual settings) |
 | Node version | 24.x |
-| Install | `npm ci --include=dev` |
+| Install | `npm ci` (production-only installs with `--omit=dev` also support building) |
 | Build | `npm run build` |
 | Start | `npm start` |
 | Entry point, if requested | `server.js` |
