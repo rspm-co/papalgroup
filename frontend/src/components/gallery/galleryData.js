@@ -72,8 +72,8 @@ export const galleryItems = [
       'A CSR activity focused on meaningful participation, responsibility and community support.',
     category: 'CSR',
     image: {
-      src: '/images/gallery/team-office.jpeg',
-      alt: 'R S PAPAL GROUP team gathering',
+      src: '/images/gallery/raireshwar-temple-csr.png',
+      alt: 'Ladachi Kulfi Raireshwar Temple adoption community initiative',
     },
     date: 'August 2026',
   },

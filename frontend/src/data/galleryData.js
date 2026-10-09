@@ -65,8 +65,8 @@ export const moments = [
     description:
       'A social impact initiative built around responsibility, participation and meaningful support.',
     image: {
-      src: '/images/gallery/annual-gathering.jpeg',
-      alt: 'Community initiative placeholder',
+      src: '/images/gallery/raireshwar-temple-csr.png',
+      alt: 'Ladachi Kulfi Raireshwar Temple adoption community initiative',
       gradient: 'from-[#F4F2EC] via-[#FFFFFF] to-[#E8E5DD]',
       heightClass: 'h-[460px]',
     },
