@@ -1,0 +1,8 @@
+export { default as GalleryCTA } from './GalleryCTA'
+export { default as GalleryCard } from './GalleryCard'
+export { default as GalleryFilter } from './GalleryFilter'
+export { default as GalleryGrid } from './GalleryGrid'
+export { default as GalleryHero } from './GalleryHero'
+export { default as GalleryModal } from './GalleryModal'
+export { default as GalleryPagination } from './GalleryPagination'
+export { galleryCategories, galleryHero, galleryItems } from './galleryData'

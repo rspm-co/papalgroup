@@ -1,0 +1,5 @@
+export { default } from './Brands'
+export { default as Brands } from './Brands'
+export { default as BrandCard } from './BrandCard'
+export { default as BrandContent } from './BrandContent'
+export { default as BrandImage } from './BrandImage'

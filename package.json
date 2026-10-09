@@ -1,0 +1,23 @@
+{
+  "name": "rspapalgroup",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "engines": { "node": ">=24 <25" },
+  "workspaces": ["frontend", "admin", "backend"],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server.js",
+    "lint": "npm run lint --workspace frontend",
+    "test": "npm run test --workspace backend",
+    "check": "npm run lint && npm run build && npm test",
+    "seed:admin": "npm run seed:admin --workspace backend",
+    "db:migrate": "node scripts/db.mjs migrate",
+    "db:check": "node scripts/db.mjs check",
+    "db:import": "node scripts/import-data.mjs",
+    "test:integration": "node --test backend/test/mysql.integration.js",
+    "release": "npm run check && node scripts/release.mjs"
+  },
+  "dependencies": { "express": "^5.2.1" }
+}
