@@ -18,6 +18,16 @@ export const galleryCategories = [
 
 export const galleryItems = [
   {
+    id: 'cart-opening-ceremony',
+    title: 'Cart Opening Ceremony',
+    description: 'The Tiparii team and guests at the cart opening ceremony.',
+    category: 'Events',
+    image: {
+      src: '/images/gallery/cart-opening-ceremony.png',
+      alt: 'Tiparii team and guests gathered for the cart opening ceremony',
+    },
+  },
+  {
     id: 'corporate-leadership-meet',
     title: 'Corporate Leadership Meet',
     description:
@@ -108,8 +118,8 @@ export const galleryItems = [
       'A media feature highlighting the group’s entrepreneurial journey and expanding brand ecosystem.',
     category: 'Media',
     image: {
-      src: '/images/gallery/brand-presentation.jpeg',
-      alt: 'R S PAPAL GROUP brand presentation',
+      src: '/images/gallery/media-coverage-feature.png',
+      alt: 'Marathi television media coverage featuring Ladachi Kulfi',
     },
     date: 'August 2026',
   },

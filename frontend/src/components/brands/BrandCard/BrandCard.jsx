@@ -19,25 +19,17 @@ const BrandCard = ({ brand, index }) => {
       aria-labelledby={`${brand.id}-title`}
     >
       <div className="flex h-full flex-col overflow-hidden rounded-[20px] border border-[var(--color-gray-200)] bg-[var(--color-white)] shadow-[0_14px_42px_rgba(26,26,26,0.06)] transition duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_18px_52px_rgba(26,26,26,0.1)]">
-        <div className="relative h-72 overflow-hidden">
-          <motion.div
-            className="absolute inset-0"
-            style={{
-              background: `linear-gradient(135deg, ${brand.themeColor}, ${brand.themeColor}B8 42%, #FFFFFF 100%)`,
-            }}
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.55, ease: 'easeOut' }}
-            role="img"
-            aria-label={brand.heroImage.alt}
-          />
+        <div className="relative flex h-72 items-center justify-center overflow-hidden border-b border-[var(--color-gray-200)] bg-white px-10 pb-20 pt-8">
           {brand.logoImage ? (
             <img
               src={brand.logoImage}
               alt={`${brand.name} logo`}
-              className="absolute left-6 top-6 h-20 w-20 rounded-full object-cover shadow-[0_12px_32px_rgba(26,26,26,0.14)]"
+              className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+              decoding="async"
             />
           ) : (
-            <div className="absolute left-6 top-6 flex h-20 w-20 items-center justify-center rounded-full text-base font-bold text-[var(--color-black)]">
+            <div className="flex h-full w-full items-center justify-center text-5xl font-bold" style={{ color: brand.themeColor }} aria-label={brand.name}>
               {brand.logo}
             </div>
           )}

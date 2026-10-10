@@ -19,7 +19,7 @@ export const brandsPortfolio = [
     description:
       'A dessert brand focused on quality, nostalgia and memorable customer experiences.',
     category: 'Kulfi',
-    website: '#',
+    website: 'https://ladachikulfi.com',
     logo: 'LK',
     logoImage: '/brands/ladachi-kulfi.png',
     heroImage: {
@@ -36,7 +36,7 @@ export const brandsPortfolio = [
     description:
       'A dessert brand focused on quality, nostalgia and memorable customer experiences.',
     category: 'Modak',
-    website: '#',
+    website: 'https://gauraai.co',
     logo: 'GM',
     logoImage: '/brands/gauraai.png',
     heroImage: {
@@ -53,7 +53,7 @@ export const brandsPortfolio = [
     description:
       'A regional food brand celebrating familiar taste, convenience and consistent quality.',
     category: 'Ice Cream',
-    website: '#',
+    website: 'https://beta.tiparii.com',
     logo: 'TP',
     logoImage: '/brands/tiparii.png',
     heroImage: {
@@ -87,7 +87,7 @@ export const brandsPortfolio = [
     description:
       'A business services brand supporting growth, presence and operational progress.',
     category: 'Brand Solutions',
-    website: '#',
+    website: 'https://brandplus.papalgroup.com',
     logo: 'B+',
     logoImage: '/brands/brand-plus.png',
     heroImage: {
@@ -104,7 +104,7 @@ export const brandsPortfolio = [
     description:
       'A connectivity brand focused on dependable service, accessibility and support.',
     category: 'Telecom',
-    website: '#',
+    website: 'https://speedo.papalgroup.com',
     logo: 'SI',
     logoImage: '/brands/speedo.png',
     heroImage: {

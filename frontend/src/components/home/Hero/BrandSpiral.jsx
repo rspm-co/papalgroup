@@ -2,14 +2,14 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 const brands = [
-  { name: 'Mahalaxmi Foods', src: '/brands/mahalaxmi-foods.png', x: 50, y: 13 },
-  { name: 'Gauraai', src: '/brands/gauraai.png', x: 76, y: 24 },
-  { name: 'Asha Upahar Gruh', src: '/brands/asha-upahar-gruh.png', x: 87, y: 50 },
-  { name: 'Brand Plus', src: '/brands/brand-plus.png', x: 76, y: 76 },
-  { name: 'Speedo Internet', src: '/brands/speedo.png', x: 50, y: 87 },
-  { name: 'Ladachi Kulfi', src: '/brands/ladachi-kulfi.png', x: 24, y: 76 },
-  { name: 'Tiparii', src: '/brands/tiparii.png', x: 13, y: 50 },
-  { name: 'Woodley', src: '/brands/woodley.png', x: 24, y: 24 },
+  { name: 'Mahalaxmi Foods', src: '/brands/spiral/mahalaxmi-foods.png', x: 50, y: 13 },
+  { name: 'Gauraai', src: '/brands/spiral/gauraai.png', href: 'https://gauraai.co', x: 76, y: 24 },
+  { name: 'Asha Upahar Gruh', src: '/brands/spiral/asha-upahar-gruh.png', x: 87, y: 50 },
+  { name: 'Brand Plus', src: '/brands/spiral/brand-plus.png', href: 'https://brandplus.papalgroup.com', x: 76, y: 76 },
+  { name: 'Speedo Internet', src: '/brands/spiral/speedo.png', href: 'https://speedo.papalgroup.com', x: 50, y: 87 },
+  { name: 'Ladachi Kulfi', src: '/brands/spiral/ladachi-kulfi.png', href: 'https://ladachikulfi.com', x: 24, y: 76 },
+  { name: 'Tiparii', src: '/brands/spiral/tiparii.png', href: 'https://beta.tiparii.com', x: 13, y: 50 },
+  { name: 'Woodley', src: '/brands/spiral/woodley.png', x: 24, y: 24 },
 ]
 
 const stars = [
@@ -55,8 +55,10 @@ const BrandSpiral = () => (
           }}
         >
           <Link
-            to="/brands"
-            aria-label={`Explore ${brand.name} and our brands`}
+            to={brand.href || '/brands'}
+            target={brand.href ? '_blank' : undefined}
+            rel={brand.href ? 'noopener noreferrer' : undefined}
+            aria-label={brand.href ? `Visit ${brand.name} website (opens in a new tab)` : `Explore ${brand.name} and our brands`}
             className="block h-full w-full rounded-full border border-white/70 bg-white p-3 shadow-[0_10px_24px_rgba(0,0,0,0.28)] transition-shadow hover:shadow-[0_16px_32px_rgba(187,155,80,0.42)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-gold-500)] sm:p-4"
           >
             <img src={brand.src} alt={`${brand.name} logo`} className="h-full w-full rounded-full object-contain" />
@@ -70,7 +72,7 @@ const BrandSpiral = () => (
       transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
     >
       <img
-        src="/brands/rsp-logo.png"
+        src="/brands/spiral/rsp-logo.png"
         alt="R S Papal Group"
         className="h-full w-full -translate-x-[1.5%] -translate-y-[1.5%] rounded-full object-cover"
       />
