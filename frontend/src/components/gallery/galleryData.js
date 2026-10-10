@@ -29,9 +29,9 @@ export const galleryItems = [
   },
   {
     id: 'corporate-leadership-meet',
-    title: 'Corporate Leadership Meet',
+    title: 'Papal Family Moment',
     description:
-      'A focused leadership session aligning teams, business priorities and the long-term vision of the group.',
+      'A family portrait shared as part of the Papal Group journey.',
     category: 'Corporate',
     image: {
       src: '/images/gallery/family-moment.jpeg',
@@ -40,23 +40,11 @@ export const galleryItems = [
     date: 'August 2026',
   },
   {
-    id: 'brand-launch-moment',
-    title: 'Brand Launch Moment',
-    description:
-      'A milestone launch moment celebrating the group’s growing business portfolio and customer reach.',
-    category: 'Events',
-    image: {
-      src: '/images/gallery/ladachi-team.jpeg',
-      alt: 'Ladachi Kulfi team at an event',
-    },
-    date: 'August 2026',
-  },
-  {
     id: 'franchise-partner-meeting',
-    title: 'Franchise Partner Meeting',
+    title: 'Delivery Vehicle Launch',
     description:
-      'A partner meeting built around shared growth, operational support and franchise expansion.',
-    category: 'Franchise',
+      'Celebrating a refrigerated delivery vehicle with a garlanded vehicle and guests.',
+    category: 'Events',
     image: {
       src: '/images/gallery/delivery-launch.jpeg',
       alt: 'Franchise delivery vehicle launch',
@@ -64,22 +52,10 @@ export const galleryItems = [
     date: 'August 2026',
   },
   {
-    id: 'recognition-ceremony',
-    title: 'Recognition Ceremony',
-    description:
-      'An awards moment honoring effort, consistency and the people behind the group’s progress.',
-    category: 'Awards',
-    image: {
-      src: '/images/gallery/delivery-team.jpeg',
-      alt: 'Team beside a newly launched delivery vehicle',
-    },
-    date: 'August 2026',
-  },
-  {
     id: 'csr-community-initiative',
-    title: 'Community Initiative',
+    title: 'Raireshwar Temple Adoption',
     description:
-      'A CSR activity focused on meaningful participation, responsibility and community support.',
+      'Papal Group’s Ladachi Kulfi adopted Raireshwar Temple as part of its community initiative.',
     category: 'CSR',
     image: {
       src: '/images/gallery/raireshwar-temple-csr.png',
@@ -89,9 +65,9 @@ export const galleryItems = [
   },
   {
     id: 'team-growth-day',
-    title: 'Team Growth Day',
+    title: 'Annual Team Gathering',
     description:
-      'A team event reflecting collaboration, ownership and the culture behind every successful brand.',
+      'A group portrait of the team and guests at a gathering.',
     category: 'Team',
     image: {
       src: '/images/gallery/annual-gathering.jpeg',
@@ -101,10 +77,10 @@ export const galleryItems = [
   },
   {
     id: 'product-launch-showcase',
-    title: 'Product Launch Showcase',
+    title: 'Leadership and Team Portrait',
     description:
-      'A product launch moment designed around presentation, customer experience and brand quality.',
-    category: 'Products',
+      'A formal group portrait of the Papal Group team.',
+    category: 'Team',
     image: {
       src: '/images/gallery/leadership-team.jpeg',
       alt: 'Leadership and team portrait',
@@ -113,9 +89,9 @@ export const galleryItems = [
   },
   {
     id: 'media-coverage-feature',
-    title: 'Media Coverage Feature',
+    title: 'Ladachi Kulfi Media Coverage',
     description:
-      'A media feature highlighting the group’s entrepreneurial journey and expanding brand ecosystem.',
+      'Marathi television coverage featuring Ladachi Kulfi.',
     category: 'Media',
     image: {
       src: '/images/gallery/media-coverage-feature.png',
@@ -125,10 +101,10 @@ export const galleryItems = [
   },
   {
     id: 'food-festival-presence',
-    title: 'Food Festival Presence',
+    title: 'Recognition and Felicitation',
     description:
-      'A food festival experience connecting customers with taste, energy and memorable brand moments.',
-    category: 'Festival',
+      'A presentation and felicitation moment with guests on stage.',
+    category: 'Awards',
     image: {
       src: '/images/gallery/recognition-event.jpeg',
       alt: 'Recognition event with business partners',
@@ -137,10 +113,10 @@ export const galleryItems = [
   },
   {
     id: 'corporate-planning-session',
-    title: 'Corporate Planning Session',
+    title: 'Annual Get-Together Celebration',
     description:
-      'A planning session focused on operational clarity, new opportunities and disciplined expansion.',
-    category: 'Corporate',
+      'A cake-cutting celebration at the annual get-together.',
+    category: 'Events',
     image: {
       src: '/images/gallery/annual-get-together.jpeg',
       alt: 'Annual get-together and celebration',
@@ -149,13 +125,13 @@ export const galleryItems = [
   },
   {
     id: 'franchise-support-workshop',
-    title: 'Franchise Support Workshop',
+    title: 'Ladachi Kulfi Guest Moment',
     description:
-      'A franchise workshop designed to strengthen partner knowledge, systems and growth readiness.',
-    category: 'Franchise',
+      'A guest enjoying Ladachi Kulfi at Hotel Majestique.',
+    category: 'Events',
     image: {
       src: '/images/gallery/ladachi-partner.jpeg',
-      alt: 'Ladachi Kulfi franchise partner moment',
+      alt: 'Guest holding a kulfi beside a representative at Hotel Majestique',
     },
     date: 'August 2026',
   },
