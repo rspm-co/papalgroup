@@ -145,6 +145,7 @@ export const brands = [
       gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#E8E5DD]',
     },
     logo: 'MS',
+    logoImage: '/brands/mahalaxmi-services.png',
     themeColor: '#6B4B16',
   },
 ]

@@ -123,6 +123,7 @@ export const brandsPortfolio = [
     category: 'Services',
     website: '#',
     logo: 'MS',
+    logoImage: '/brands/mahalaxmi-services.png',
     heroImage: {
       alt: 'Mahalaxmi Services brand visual placeholder',
       gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#E8E5DD]',
