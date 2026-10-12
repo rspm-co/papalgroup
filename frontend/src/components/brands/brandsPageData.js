@@ -38,7 +38,7 @@ export const brandsPortfolio = [
     category: 'Modak',
     website: 'https://gauraai.co',
     logo: 'GM',
-    logoImage: '/brands/gauraai.png',
+    logoImage: '/brands/gauraai-brand-page.png',
     heroImage: {
       alt: 'Ladachi Kulfi brand visual placeholder',
       gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#EFE6D0]',
