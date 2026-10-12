@@ -3,129 +3,149 @@ export const momentsSection = {
   subtitle: 'Every milestone tells a story of passion, growth and excellence.',
 }
 
-export const momentCategories = [
+export const galleryHero = {
+  title: 'Gallery',
+  subtitle: 'Explore the moments that define the journey of R S PAPAL GROUP.',
+}
+
+export const galleryCategories = [
   'All',
   'Corporate',
-  'Franchise',
+  'Events',
   'Awards',
   'CSR',
-  'Events',
-  'Products',
+  'Franchise',
   'Team',
+  'Products',
+  'Media',
   'Festival',
 ]
 
-export const moments = [
+export const galleryItems = [
   {
-    id: 'corporate-ecosystem-meet',
-    title: 'Corporate Ecosystem Meet',
+    id: 'cart-opening-ceremony',
+    title: 'Cart Opening Ceremony',
+    description: 'The Tiparii team and guests at the cart opening ceremony.',
+    category: 'Events',
+    image: {
+      src: '/images/gallery/cart-opening-ceremony.png',
+      alt: 'Tiparii team and guests gathered for the cart opening ceremony',
+    },
+  },
+  {
+    id: 'corporate-leadership-meet',
+    title: 'Papal Family Moment',
+    description:
+      'A family portrait shared as part of the Papal Group journey.',
     category: 'Corporate',
-    description:
-      'A leadership gathering focused on aligning teams, brands and long-term group direction.',
     image: {
-      src: '/images/gallery/team-office.jpeg',
-      alt: 'Corporate ecosystem meeting placeholder',
-      gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#E8E5DD]',
-      heightClass: 'h-[420px]',
+      src: '/images/gallery/family-moment.jpeg',
+      alt: 'Family moment with R S PAPAL GROUP leadership',
     },
-    date: 'January 2024',
+    date: 'August 2026',
   },
   {
-    id: 'franchise-growth-day',
-    title: 'Franchise Growth Day',
-    category: 'Franchise',
+    id: 'franchise-partner-meeting',
+    title: 'Delivery Vehicle Launch',
     description:
-      'A milestone moment celebrating expanding franchise conversations and regional opportunities.',
+      'Celebrating a refrigerated delivery vehicle with a garlanded vehicle and guests.',
+    category: 'Events',
     image: {
-      src: '/images/gallery/ladachi-partner.jpeg',
-      alt: 'Franchise growth event placeholder',
-      gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#EFE6D0]',
-      heightClass: 'h-[520px]',
+      src: '/images/gallery/delivery-launch.jpeg',
+      alt: 'Franchise delivery vehicle launch',
     },
-    date: 'March 2024',
+    date: 'August 2026',
   },
   {
-    id: 'recognition-evening',
-    title: 'Recognition Evening',
-    category: 'Awards',
+    id: 'csr-community-initiative',
+    title: 'Raireshwar Temple Adoption',
     description:
-      'An evening dedicated to effort, consistency and the people who helped shape the journey.',
-    image: {
-      src: '/images/gallery/recognition-event.jpeg',
-      alt: 'Awards recognition evening placeholder',
-      gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#D5BB7A]',
-      heightClass: 'h-[360px]',
-    },
-    date: 'May 2024',
-  },
-  {
-    id: 'community-initiative',
-    title: 'Community Initiative',
+      'Papal Group’s Ladachi Kulfi adopted Raireshwar Temple as part of its community initiative.',
     category: 'CSR',
-    description:
-      'A social impact initiative built around responsibility, participation and meaningful support.',
     image: {
       src: '/images/gallery/raireshwar-temple-csr.png',
       alt: 'Ladachi Kulfi Raireshwar Temple adoption community initiative',
-      gradient: 'from-[#F4F2EC] via-[#FFFFFF] to-[#E8E5DD]',
-      heightClass: 'h-[460px]',
     },
-    date: 'June 2024',
+    date: 'August 2026',
   },
   {
-    id: 'brand-showcase-event',
-    title: 'Brand Showcase Event',
-    category: 'Events',
+    id: 'team-growth-day',
+    title: 'Annual Team Gathering',
     description:
-      'A curated brand moment bringing products, teams and customer stories into one experience.',
-    image: {
-      src: '/images/gallery/brand-presentation.jpeg',
-      alt: 'Brand showcase event placeholder',
-      gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#F1E8D2]',
-      heightClass: 'h-[380px]',
-    },
-    date: 'August 2024',
-  },
-  {
-    id: 'product-craft-session',
-    title: 'Product Craft Session',
-    category: 'Products',
-    description:
-      'A focused product session centered on quality, presentation and repeatable customer delight.',
-    image: {
-      src: '/images/gallery/delivery-launch.jpeg',
-      alt: 'Product craft session placeholder',
-      gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#EFE6D0]',
-      heightClass: 'h-[500px]',
-    },
-    date: 'September 2024',
-  },
-  {
-    id: 'team-alignment-day',
-    title: 'Team Alignment Day',
+      'A group portrait of the team and guests at a gathering.',
     category: 'Team',
-    description:
-      'A team milestone reflecting shared standards, operational clarity and ownership across verticals.',
     image: {
-      src: '/images/gallery/ladachi-team.jpeg',
-      alt: 'Team alignment day placeholder',
-      gradient: 'from-[#F4F2EC] via-[#FFFFFF] to-[#E8E5DD]',
-      heightClass: 'h-[340px]',
+      src: '/images/gallery/annual-gathering.jpeg',
+      alt: 'Annual gathering with the R S PAPAL GROUP team',
     },
-    date: 'October 2024',
+    date: 'August 2026',
   },
   {
-    id: 'festival-celebration',
-    title: 'Festival Celebration',
-    category: 'Festival',
+    id: 'product-launch-showcase',
+    title: 'Leadership and Team Portrait',
     description:
-      'A cultural celebration honoring togetherness, gratitude and the people behind the group.',
+      'A formal group portrait of the Papal Group team.',
+    category: 'Team',
+    image: {
+      src: '/images/gallery/leadership-team.jpeg',
+      alt: 'Leadership and team portrait',
+    },
+    date: 'August 2026',
+  },
+  {
+    id: 'media-coverage-feature',
+    title: 'Ladachi Kulfi Media Coverage',
+    description:
+      'Marathi television coverage featuring Ladachi Kulfi.',
+    category: 'Media',
+    image: {
+      src: '/images/gallery/media-coverage-feature.png',
+      alt: 'Marathi television media coverage featuring Ladachi Kulfi',
+    },
+    date: 'August 2026',
+  },
+  {
+    id: 'food-festival-presence',
+    title: 'Recognition and Felicitation',
+    description:
+      'A presentation and felicitation moment with guests on stage.',
+    category: 'Awards',
+    image: {
+      src: '/images/gallery/recognition-event.jpeg',
+      alt: 'Recognition event with business partners',
+    },
+    date: 'August 2026',
+  },
+  {
+    id: 'corporate-planning-session',
+    title: 'Annual Get-Together Celebration',
+    description:
+      'A cake-cutting celebration at the annual get-together.',
+    category: 'Events',
     image: {
       src: '/images/gallery/annual-get-together.jpeg',
-      alt: 'Festival celebration placeholder',
-      gradient: 'from-[#FAFAF8] via-[#FFFFFF] to-[#F2E9D6]',
-      heightClass: 'h-[440px]',
+      alt: 'Annual get-together and celebration',
     },
-    date: 'November 2024',
+    date: 'August 2026',
+  },
+  {
+    id: 'franchise-support-workshop',
+    title: 'Ladachi Kulfi Guest Moment',
+    description:
+      'A guest enjoying Ladachi Kulfi at Hotel Majestique.',
+    category: 'Events',
+    image: {
+      src: '/images/gallery/ladachi-partner.jpeg',
+      alt: 'Guest holding a kulfi beside a representative at Hotel Majestique',
+    },
+    date: 'August 2026',
   },
 ]
+
+// Homepage cards add presentation sizing to the shared gallery content.
+export const momentCategories = galleryCategories
+const momentHeights = ['h-[420px]', 'h-[520px]', 'h-[360px]', 'h-[460px]']
+export const moments = galleryItems.map((item, index) => ({
+  ...item,
+  image: { ...item.image, heightClass: momentHeights[index % momentHeights.length] },
+}))
